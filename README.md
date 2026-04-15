@@ -90,15 +90,7 @@ We organize the literature around **four main pillars** (mirroring the manuscrip
 3. **Failure attribution:** Formal definitions, failure taxonomies, attribution methods, and evaluation benchmarks.
 4. **Self-evolution:** From postmortem signals to updates at agentic, systemic, and meta levels (prompts, memory, parameters, topology, team composition, and whole-system design).
 
-> Replace `figs/teaser.png` with the official survey teaser when available.
-
 ## Paper List
-
-The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_sample4.tex` and metadata in `latex/reference.bib`.
-
-> Auto-generation script: `python scripts/generate_paper_list.py`
-
----
 
 ### Individual Intelligence: Core Capabilities and Boundary Analysis
 
@@ -413,8 +405,8 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 
 ## Acknowledgment
 
-This README structure follows the **Awesome-style survey companion** format (logo, badges, news, citation, deep `Contents`, `Overview` figure, and wide markdown tables). Source manuscript and BibTeX live under `latex/`. Replace every **`PLACEHOLDER_*`** token with your public release URLs. Optional: link a legacy branch or archive with `PLACEHOLDER_LEGACY_TREE_URL` if older Awesome lists should remain discoverable.
+This survey is extended and refined from the original **Awesome RL for LRMs** repo. We are deeply grateful to all contributors for their efforts, and we sincerely thank for their all interest in **Awesome RL for LRMs**. The contents of the previous repository are available [here](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs).
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=PLACEHOLDER_ORG/PLACEHOLDER_REPO&type=Date)](https://www.star-history.com/#PLACEHOLDER_ORG/PLACEHOLDER_REPO&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=mira-ai-lab/Awesome_MAS_Evolution&type=Date)](https://www.star-history.com/#mira-ai-lab/Awesome_MAS_Evolution&Date)
