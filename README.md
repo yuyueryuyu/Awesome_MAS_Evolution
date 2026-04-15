@@ -20,9 +20,6 @@
 
 If you find this survey useful, please cite (update venue fields after publication):
 
-Survey placeholders in this README can be updated via config file `configs/readme_survey_config.json` without editing README directly:
-`python scripts/apply_readme_config.py`
-
 ```bibtex
 @article{qi2026beyond,
   title   = {Beyond Individual Intelligence: A Survey of Multi-agent Collaboration, Attribution and Evolution},
