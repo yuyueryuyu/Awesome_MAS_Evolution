@@ -38,40 +38,35 @@ Survey placeholders in this README can be updated via config file `configs/readm
 - [Contents](#contents)
 - [Overview](#overview)
 - [Paper List](#paper-list)
-  - [Individual Intelligence: Core Capabilities and Boundary Analysis](#individual-intelligence-core-capabilities-and-boundary-analysis)
-    - [Overview: From LLM to LLM-based Agent](#overview-from-llm-to-llm-based-agent)
-    - [Reasoning: Input-Stage Enhancement](#reasoning-input-stage-enhancement)
-    - [Reasoning: Reasoning-Process Enhancement](#reasoning-reasoning-process-enhancement)
-    - [Reasoning: Output-Stage Regulation](#reasoning-output-stage-regulation)
-    - [Memory: Formation](#memory-formation)
-    - [Memory: Maintenance](#memory-maintenance)
-    - [Memory: Retrieval and Utilization](#memory-retrieval-and-utilization)
-    - [Planning: Decomposition-Based](#planning-decomposition-based)
-    - [Planning: Search-Based](#planning-search-based)
-    - [Tool Use: Capability Acquisition](#tool-use-capability-acquisition)
-    - [Tool Use: Invocation](#tool-use-invocation)
-    - [Tool Use: Generalization](#tool-use-generalization)
-  - [Multi-Agent Collaboration](#multi-agent-collaboration)
+  - [Individual Intelligence](#individual-intelligence)
+    - [LLM to Agent](#llm-to-agent)
+    - [Input Augmentation](#input-augmentation)
+    - [Process Enhancement](#process-enhancement)
+    - [Output Regulation](#output-regulation)
+    - [Memory Formation](#memory-formation)
+    - [Memory Maintenance](#memory-maintenance)
+    - [Retrieval & Use](#retrieval--use)
+    - [Decomposition Planning](#decomposition-planning)
+    - [Search Planning](#search-planning)
+    - [Tool Acquisition](#tool-acquisition)
+    - [Tool Invocation](#tool-invocation)
+    - [Tool Generalization](#tool-generalization)
+  - [Collaboration](#collaboration)
     - [Role](#role)
     - [Communication](#communication)
     - [Orchestration](#orchestration)
     - [Interaction](#interaction)
     - [Evaluation](#evaluation)
     - [Discussion](#discussion)
-  - [Multi-Agent System Failure Attribution](#multi-agent-system-failure-attribution)
+  - [Failure Attribution](#failure-attribution)
     - [Formal Definition](#formal-definition)
-    - [MAS Failure Category](#mas-failure-category)
-    - [Failure Attribution Taxonomy](#failure-attribution-taxonomy)
-    - [Failure Attribution Evaluation](#failure-attribution-evaluation)
-    - [Challenges and Future Directions](#challenges-and-future-directions)
-  - [Multi-Agent System Self-Evolution](#multi-agent-system-self-evolution)
+    - [Failure Category](#failure-category)
+    - [Attribution Taxonomy](#attribution-taxonomy)
+    - [Attribution Evaluation](#attribution-evaluation)
+  - [Self-Evolution](#self-evolution)
     - [Motivation](#motivation)
-    - [From Attribution to Evolution](#from-attribution-to-evolution)
-    - [Formalizing Multi-Agent System Self-Evolution](#formalizing-multi-agent-system-self-evolution)
-    - [MAS Self-Evolution Taxonomy](#mas-self-evolution-taxonomy)
-    - [Agentic Self-Evolution](#agentic-self-evolution)
-    - [Systemic Self-Evolution](#systemic-self-evolution)
-    - [Meta Self-Evolution](#meta-self-evolution)
+    - [Attribution to Evolution](#attribution-to-evolution)
+    - [Evolution Taxonomy](#evolution-taxonomy)
 - [Acknowledgment](#acknowledgment)
 - [Star History](#star-history)
 
@@ -92,15 +87,11 @@ We organize the literature around **four main pillars** (mirroring the manuscrip
 
 ## Paper List
 
-The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_sample4.tex` and metadata in `latex/reference.bib`.
-
-> Auto-generation script: `python scripts/generate_paper_list.py`
-
 ---
 
-### Individual Intelligence: Core Capabilities and Boundary Analysis
+### Individual Intelligence
 
-#### Overview: From LLM to LLM-based Agent
+#### LLM to Agent
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -114,7 +105,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2023 | `shinn2023reflexion` | Reflexion: Language agents with verbal reinforcement learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2023 | `xi2023rise` | The rise and potential of large language model based agents: A survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.07864) | - |
 
-#### Reasoning: Input-Stage Enhancement
+#### Input Augmentation
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -133,7 +124,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2024 | `hu2024sketchpad` | Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2025 | `qi2025cogcom` | CogCoM: A Visual Language Model with Chain-of-Manipulations Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Reasoning: Reasoning-Process Enhancement
+#### Process Enhancement
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -151,7 +142,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2024 | `wang2024mathshepherd` | Math-Shepherd: Verify and Reinforce LLMs Step-by-Step without Human Annotations | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2025 | `luo2025wizardmath` | WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Reasoning: Output-Stage Regulation
+#### Output Regulation
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -202,7 +193,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2023 | `cao2023l2r` | Learn to refuse: Making large language models more controllable and reliable through knowledge scope limitation and refusal mechanism | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.01041) | - |
 | 2025 | `grand2025smc` | Syntactic and semantic control of large language models via sequential Monte Carlo | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.13139) | - |
 
-#### Memory: Formation
+#### Memory Formation
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -217,7 +208,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2025 | `patel2025engram` | ENGRAM: Effective, Lightweight Memory Orchestration for Conversational Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.12960) | - |
 | 2024 | `sumers2024cognitive` | Cognitive Architectures for Language Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Memory: Maintenance
+#### Memory Maintenance
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -235,7 +226,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2026 | `yan2026memrl` | MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.03192) | - |
 | 2024 | `packer2024memgpt` | MemGPT: Towards LLMs as Operating Systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08560) | - |
 
-#### Memory: Retrieval and Utilization
+#### Retrieval & Use
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -259,7 +250,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2025 | `chen2025comedy` | Compress to Impress: Unleashing the Potential of Compressive Memory in Real-World Long-Term Conversations | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2025 | `gao2025memos` | MemOS: An Operating System for Memory-Augmented Generation in Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Planning: Decomposition-Based
+#### Decomposition Planning
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -283,7 +274,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2023 | `wang2023deps` | Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2024 | `zhu2024knowagent` | KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.03101) | - |
 
-#### Planning: Search-Based
+#### Search Planning
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -316,7 +307,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2025 | `erdogan2025planandact` | Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09572) | - |
 | 2025 | `yang2025selfgoal` | SelfGoal: Your Language Agents Already Know How to Achieve High-Level Goals | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Tool Use: Capability Acquisition
+#### Tool Acquisition
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -333,7 +324,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2025 | `yuan2025easytool` | EasyTool: Enhancing LLM-based Agents with Concise Tool Instruction | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2024 | `anthropic2024mcp` | Model Context Protocol | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://modelcontextprotocol.io) | - |
 
-#### Tool Use: Invocation
+#### Tool Invocation
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -349,7 +340,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2024 | `zhuge2024gptswarm` | Gptswarm: Language agents as optimizable graphs | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2025 | `zhang2025aflow` | Aflow: Automating agentic workflow generation, 2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Tool Use: Generalization
+#### Tool Generalization
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -377,7 +368,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 
 ---
 
-### Multi-Agent Collaboration
+### Collaboration
 
 #### Role
 
@@ -573,7 +564,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 
 ---
 
-### Multi-Agent System Failure Attribution
+### Failure Attribution
 
 #### Formal Definition
 
@@ -589,7 +580,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2026 | `wang2026flat` | From Flat Logs to Causal Graphs: Hierarchical Failure Attribution for LLM-based Multi-Agent Systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.23701) | - |
 | 2025 | `Ge2025WhoII` | Who is introducing the failure? automatically attributing failures of multi-agent systems via spectrum analysis | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.13782) | - |
 
-#### MAS Failure Category
+#### Failure Category
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -604,7 +595,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2026 | `ma2026demystifying` | Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.23735) | - |
 | 2026 | `anonymous2025diagnosing` | Diagnosing with Insights: Structured Analysis of Agent Failures via Behavioral Abstractions | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Failure Attribution Taxonomy
+#### Attribution Taxonomy
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -642,7 +633,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2026 | `zhu2026raffles` | Raffles: Reasoning-based attribution of faults for llm systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 2025 | `pan2025why` | Why Do Multiagent Systems Fail? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### Failure Attribution Evaluation
+#### Attribution Evaluation
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -661,7 +652,7 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 
 ---
 
-### Multi-Agent System Self-Evolution
+### Self-Evolution
 
 #### Motivation
 
@@ -672,14 +663,14 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2025 | `kim2025towards` | Towards a science of scaling agent systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.08296) | - |
 | TBD | `koduriefficiency` | Efficiency-First Design for LLM-Based Multi-Agent Systems: A Framework and Empirical Analysis | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### From Attribution to Evolution
+#### Attribution to Evolution
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
 | 2007 | `galhardo2007mutation` | Mutation as a stress response and the regulation of evolvability | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 | 1989 | `goss1989self` | Self-organized shortcuts in the Argentine ant | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
-#### MAS Self-Evolution Taxonomy
+#### Evolution Taxonomy
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
@@ -715,38 +706,6 @@ The tables below are **auto-generated from citations in** `latex/bare_jrnl_new_s
 | 2025 | `zhang2025multi` | Multi-agent architecture search via agentic supernet | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.04180) | - |
 | 2025 | `ye2025mas` | Mas-gpt: Training llms to build llm-based multi-agent systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.03686) | - |
 | 2025 | `wang2025mas` | MAS $\^ 2$: Self-Generative, Self-Configuring, Self-Rectifying Multi-Agent Systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.24323) | - |
-
-#### Multi-Agent Self-Evolution Taxonomy
-
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| TBD | `advevo2024` | PLACEHOLDER_TITLE_FOR_advevo2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `agentbreeder2024` | PLACEHOLDER_TITLE_FOR_agentbreeder2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `annaagent2024` | PLACEHOLDER_TITLE_FOR_annaagent2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `reflective2024` | PLACEHOLDER_TITLE_FOR_reflective2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `scoreflow2024` | PLACEHOLDER_TITLE_FOR_scoreflow2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `maporl2024` | PLACEHOLDER_TITLE_FOR_maporl2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `ann2024` | PLACEHOLDER_TITLE_FOR_ann2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `evomac2024` | PLACEHOLDER_TITLE_FOR_evomac2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `agp2024` | PLACEHOLDER_TITLE_FOR_agp2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `topoweaver2024` | PLACEHOLDER_TITLE_FOR_topoweaver2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `cutthecrap2024` | PLACEHOLDER_TITLE_FOR_cutthecrap2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `gdesigner2024` | PLACEHOLDER_TITLE_FOR_gdesigner2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `gmemory2024` | PLACEHOLDER_TITLE_FOR_gmemory2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `agentnet2024` | PLACEHOLDER_TITLE_FOR_agentnet2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `gptswarm2024` | PLACEHOLDER_TITLE_FOR_gptswarm2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `adas2024` | PLACEHOLDER_TITLE_FOR_adas2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `maas2024` | PLACEHOLDER_TITLE_FOR_maas2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `maszero2024` | PLACEHOLDER_TITLE_FOR_maszero2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `aflow2024` | PLACEHOLDER_TITLE_FOR_aflow2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `autoflow2024` | PLACEHOLDER_TITLE_FOR_autoflow2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `debflow2024` | PLACEHOLDER_TITLE_FOR_debflow2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `epc2024` | PLACEHOLDER_TITLE_FOR_epc2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `evoagent2024` | PLACEHOLDER_TITLE_FOR_evoagent2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `autoagents2024` | PLACEHOLDER_TITLE_FOR_autoagents2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `flowreasoner2024` | PLACEHOLDER_TITLE_FOR_flowreasoner2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `masgpt2024` | PLACEHOLDER_TITLE_FOR_masgpt2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
-| TBD | `mass2024` | PLACEHOLDER_TITLE_FOR_mass2024 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/PLACEHOLDER_PAPER_TBD) | - |
 
 ## Acknowledgment
 
