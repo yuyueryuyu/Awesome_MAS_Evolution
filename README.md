@@ -18,7 +18,7 @@
 <a id="citation"></a>
 ## 📌 Citation
 
-If you find this survey useful, please cite (update venue fields after publication):
+If you find this survey useful, please cite:
 
 ```bibtex
 @article{qi2026beyond,
@@ -80,7 +80,7 @@ If you find this survey useful, please cite (update venue fields after publicati
 This companion repository supports the survey **Beyond Individual Intelligence: A Survey of Multi-agent Collaboration, Attribution and Evolution**, which studies the **full operational lifecycle** of LLM-based multi-agent systems (MAS): single-agent foundations, collaboration design, runtime failure attribution, and self-evolution that closes the loop from diagnosis to structural adaptation.
 
 <p align="center">
-   <img src="figs/teaser.png" alt="Survey overview figure (replace with lifecycle figure if needed)" style="width: 100%;">
+   <img src="figs/teaser.png" alt="Survey overview figure" style="width: 100%;">
 </p>
 
 We organize the literature around **four main pillars** (mirroring the manuscript):
